@@ -2,7 +2,7 @@
 
 # Svelte Movies App
 
-This is a Svelte web application that allows users to view a list of popular movies, search for movies by title, and click on a movie to see its detailed information. The app implements infinite scrolling or pagination for the movie list and makes API calls using the Fetch API while managing API responses with Svelte’s reactivity system.
+ This Svelte web application was developed by Zahra Shahab for testing purposes.
 
 ## Features
 
@@ -16,12 +16,12 @@ This is a Svelte web application that allows users to view a list of popular mov
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:zshahab91/CryptifyAI.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd svelte-movies-app
+   cd CryptifyAI
    ```
 
 3. Install the dependencies:
@@ -34,14 +34,10 @@ This is a Svelte web application that allows users to view a list of popular mov
    npm run dev
    ```
 
-5. Open your browser and go to `http://localhost:5000` to view the application.
+5. Open your browser and go to `http://localhost:5173` to view the application.
 
 ## Usage
 
 - Use the search bar to find movies by title.
 - Click on a movie card to view more details.
 - Navigate through the movie list using pagination or infinite scrolling.
-
-## License
-
-This project is licensed under the MIT License.
