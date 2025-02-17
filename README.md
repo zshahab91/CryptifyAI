@@ -1,6 +1,6 @@
 # Contents of README.md
 
-# Svelte Movies App
+# Movies App Test
 
  This Svelte web application was developed by Zahra Shahab for testing purposes.
 
@@ -41,3 +41,4 @@
 - Use the search bar to find movies by title.
 - Click on a movie card to view more details.
 - Navigate through the movie list using pagination or infinite scrolling.
+- I know TypeScript and Tailwind CSS completely but it's first time I developed with Svelte that's why I decided to focus on it.
