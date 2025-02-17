@@ -1,0 +1,35 @@
+{
+  "name": "svelte-movies-app",
+  "version": "1.0.0",
+  "description": "A Svelte application to view and search for popular movies.",
+  "type": "module",
+  "main": "src/app.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "svelte": "^4.2.7"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6",
+    "vite": "^5.0.3"
+  },
+  "keywords": [
+    "svelte",
+    "movies",
+    "api",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
