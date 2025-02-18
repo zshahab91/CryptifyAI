@@ -49,9 +49,11 @@
           alt={movie.title}
           loading="lazy"
         />
-        <h3>{movie.title}</h3>
-        <p>Rating: {movie.vote_average}</p>
-        <p>Release: {new Date(movie.release_date).getFullYear()}</p>
+        <div class="movie-card__content">
+          <h3>{movie.title}</h3>
+          <p>Rating: {movie.vote_average}</p>
+          <p>Release: {new Date(movie.release_date).getFullYear()}</p>
+        </div>
       </a>
     {/each}
   </div>
@@ -69,6 +71,8 @@
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s;
+    background-color: #e5e5e5;
+    border-radius: 5px;
   }
 
   .movie-card:hover {
@@ -78,5 +82,9 @@
   img {
     width: 100%;
     border-radius: 8px;
+    object-fit: cover;
+  }
+  .movie-card__content {
+    padding: 0 5px;
   }
 </style>
