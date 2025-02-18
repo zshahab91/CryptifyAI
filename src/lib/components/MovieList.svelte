@@ -42,7 +42,7 @@
   <div>Error: {error}</div>
 {:else}
   <div class="movie-grid">
-    {#each movies as movie}
+    {#each movies as movie (movie.id)}
       <a href="/movie/{movie.id}" class="movie-card">
         <img 
           src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} 
